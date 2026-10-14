@@ -9,8 +9,47 @@ body {
     color: #204b3b;
     font-size: 12px;
 }
-container {
+.container {
     width: 76%;
     max-width: 1000px;
-    margin
+    margin: 0 auto;
+}
+.section-nav {
+    display: flex;
+    flex-direction: row;
+}
+.section-nav a{
+    flex: 0 1 25%
+}
+.section-nav div{
+    flex: 0 1 25%
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    gap: 15px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+header{
+    display: flex;
+    gap: 5px;
+}
+.cows {
+    top: 25%;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
 }
